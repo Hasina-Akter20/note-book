@@ -1,0 +1,73 @@
+body {
+  height: 100hv !important;
+  background-color: #2f7ae5 !important;
+}
+
+/* notes  */
+.notes {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, 350px);
+}
+.note {
+  background-color: white;
+  /* height: 300px;
+  width: 350px; */
+  border-radius: 5px;
+  padding: 20px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.note .title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.note div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(104, 103, 103);
+  /* padding-top: 10px; */
+  /* font-size: 15px; */
+}
+.note p {
+  color: rgb(89, 88, 88);
+  text-align: justify;
+}
+.note div span {
+  color: rgb(104, 103, 103);
+}
+
+/* node adding option */
+.add-note {
+  color: #2f7ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.add-note i {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  /* border: dashed 1px;
+  padding: 15px;
+  border-radius: 50%; */
+}
+.add-note p {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.add-note div {
+  height: 90px;
+  width: 90px;
+  border: dashed 2px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
